@@ -29,11 +29,22 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 p {
   padding: 0;
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 .site-container {
@@ -87,7 +98,7 @@ p {
 .container {
   margin: 0 auto;
   padding: 0 var(--container-offset);
-  max-width: var(--container-width);
+  max-width: var(--content-width);
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
@@ -133,4 +144,17 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .flex {
   display: flex;
+}
+
+
+.section-title {
+  font-family: 'SFProDisplay';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--dark-color);
+
+  &--center {
+    text-align: center;
+  }
 }

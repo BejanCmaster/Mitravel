@@ -1,0 +1,58 @@
+.insp {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
+.grid {
+  display: grid;
+}
+
+.insp__list {
+  grid-gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(500px, auto);
+}
+
+.insp__item {
+  background-color: var(--black-color);
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.insp__item--big {
+  grid-column-end: span 2;
+}
+
+.insp__item--bighight {
+  height: 710px;
+}
+
+.insp__item--1 {
+  background-image: url("../img/insp-1.jpg");
+}
+
+.insp__item--2 {
+  background-image: url("../img/insp-2.jpg");
+}
+
+.insp__item--3 {
+  background-image: url("../img/insp-3.jpg");
+}
+
+.insp__item--4 {
+  background-image: url("../img/insp-4.jpg");
+}
+
+.insp__item--5 {
+  background-image: url("../img/insp-5.jpg");
+}
+
+.insp__item--6 {
+  background-image: url("../img/insp-6.jpg");
+}
+
+.insp__item--7 {
+  background-image: url("../img/insp-7.jpg");
+}

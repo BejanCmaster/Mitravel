@@ -72,3 +72,8 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.subscribe-form__btn:hover {
+  background-color: var(--neptune-hover-color);
+  transition: background-color 0.3s;
+}

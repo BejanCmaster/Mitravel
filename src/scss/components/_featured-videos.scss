@@ -5,7 +5,7 @@
   margin-top: 50px;
 }
 
-.swiper-slide {
+.slider-container .swiper-slide {
   position: relative;
   border-radius: 8px;
   background-color: #e3e3e3;
@@ -21,7 +21,7 @@
   overflow: hidden;
 }
 
-.swiper-slide::after {
+.slider-container .swiper-slide::after {
   content: "";
   position: absolute;
   left: 0;
@@ -33,12 +33,12 @@
   transition: opacity 0.3s;
 }
 
-.swiper-slide-active {
+.slider-container .swiper-slide-active {
   transform: scaleX(1.16) scaleY(1.2);
   transition: transform 0.3s;
 }
 
-.swiper-slide-active::after {
+.slider-container .swiper-slide-active::after {
   opacity: 1;
   transition: opacity 0.3s;
 }

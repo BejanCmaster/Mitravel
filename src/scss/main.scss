@@ -5,6 +5,7 @@
 @import "settings";
 
 // подключения компонентов страницы
+@import "./components/menu";
 @import "./components/header";
 @import "./components/first";
 @import "./components/become";
@@ -12,3 +13,4 @@
 @import "./components/featured-videos";
 @import "./components/newsletter";
 @import "./components/insp";
+@import "./components/footer";

@@ -7,7 +7,7 @@ Swiper.use([Navigation, Pagination]);
 
 
 const swiper1 = document.querySelector('.slider-container'),
-  swiper2 = document.querySelector('.swiper-container'),
+  swiper2 = document.querySelector('.swiper__container'),
   playButtonsFirst = document.querySelectorAll('.main-slider__play');
 
 let swiperSlider1 = new Swiper(swiper1, {

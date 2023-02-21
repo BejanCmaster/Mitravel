@@ -20,8 +20,7 @@
 }
 
 .insp__list {
-  grid-row-gap: 32px;
-  grid-column-gap: 32px;
+  grid-gap: 32px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(500px, auto);
 }
